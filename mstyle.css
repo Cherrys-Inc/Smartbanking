@@ -1,0 +1,421 @@
+.container-fluid{
+    overflow-x: hidden;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.nav-link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: #404041;
+}
+
+.bg1{
+    background: #f9f7f7;
+}
+.bg3{
+    background: #41B3F4;
+
+}
+.margins{
+    margin: 3rem;
+}
+.marginlr{
+   margin-left: 3rem;
+   margin-right: 3rem;
+}
+.paddings{
+    padding:3rem;
+
+
+}
+.menu{
+    position:absolute ;
+    top:4.5rem;
+    left:3rem;
+    display: none;
+}
+.shop{
+    text-align: right;
+}
+.circle{
+    
+/* Ellipse 787 */
+
+
+border-radius: 100%;
+
+border: 3px solid #FF8A1F;
+}
+.heading{
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80px;
+    /* or 100% */
+
+    letter-spacing: -0.01em;
+
+    color: #222223;
+}
+.subtext{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+letter-spacing: 0.01em;
+
+color: #535354;
+width: 280px;
+height: 60px;
+}
+.text{
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+line-height: 19px;
+/* identical to box height, or 100% */
+
+
+color: #222223;
+}
+.hotdeal{
+    
+font-family: 'Bai Jamjuree';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 42px;
+/* or 120% */
+
+
+color: #222223;
+}
+.smalltext{
+    font-family: 'Roboto';
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+letter-spacing: 0.01em;
+
+color: #5F5F64;
+}
+.subhead{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+letter-spacing: 0.01em;
+
+color: #17181A;
+
+}
+.bg2{
+    
+    background: rgba(82, 192, 255, 0.25);
+  
+    
+    
+}
+.blockico {
+    position:absolute;
+    
+    transform: translate(-50%,-50%);
+    left: 50%;
+}
+.heading2{
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 38px;
+    /* or 127% */
+   
+
+    color: #202020;
+
+}
+.bluecol{
+    width: 261px;
+}
+.cardimg{
+    width:55vw;
+}
+.mcol{
+    border: 1.4px solid #A9B3AB;
+}
+.num{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 40px;
+/* identical to box height, or 160% */
+
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #000000;
+
+}
+.bltext{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+/* or 150% */
+
+letter-spacing: 0.01em;
+
+color: #414449;
+}
+.rect{
+    width: 8px;
+height: 133px;
+background: #718176;
+}
+.fcol{
+    border: 1.4px solid #A9B3AB;
+    border-left: none;
+}
+.blhead{
+    font-family: 'Bai Jamjuree';
+font-style: normal;
+font-weight: 900;
+font-size: 60px;
+line-height: 70px;
+/* or 117% */
+
+letter-spacing: -0.02em;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.lcol{
+    border: 1.4px solid #A9B3AB;
+    border-right: none;
+}
+.spacedtxt{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+text-align: center;
+letter-spacing: 0.4em;
+
+color: #718176;
+
+}
+.num{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 40px;
+/* identical to box height, or 160% */
+
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #000000;
+}
+.heading3{
+    font-family: 'Bai Jamjuree';
+font-style: normal;
+font-weight: 600;
+font-size: 52px;
+line-height: 62px;
+/* or 119% */
+
+letter-spacing: -0.01em;
+
+color: #192430;
+}
+.wid{
+    width: 418px;
+}
+.head5{
+    font-family: 'Bai Jamjuree';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+
+
+color: #222222;
+}
+.splrow{
+    flex-wrap: nowrap;
+}
+.cardimg1{
+    width:45vw;
+}
+.subbutton{
+    display: flex;
+    background: #E15C19;
+    flex-direction: column;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+
+
+color: #FFFFFF;
+justify-content: center;
+width: 160px;
+height: 58px;
+align-items: center;
+
+}
+.sign{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #404041;
+
+}
+.foottext{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+text-align: center;
+
+color: rgba(27, 27, 27, 0.35);
+
+}
+.footrect{
+    margin-top: 5px;
+    border: 1px solid #565B58;
+}
+.dbrow{
+    align-items: center;
+}
+@media only screen and (min-width:990px) and (max-width:1200px) {
+    .centercol1{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .centerrow1{
+        justify-content: center;
+        text-align: center;
+    }
+    .splrow{
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width:990px) {
+    .margins{
+        margin-left:1rem;
+        margin-right: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .hidecol,.rect{
+        display: none;
+    }
+    .centercol1{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .centerrow1{
+        justify-content: center;
+        text-align: center;
+    }
+    .paddings{
+        padding-left: 0rem;
+        padding-top: 2rem;
+        padding-right: 0rem;
+    }
+    .blockico{
+        display: none;
+    }
+    .container-fluid{
+        overflow: hidden;
+    }
+    .menu{
+        display:block;
+    }
+    .shop{
+        display: none;
+    }
+    .heading{
+        font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    /* or 100% */
+
+    letter-spacing: -0.01em;
+
+    color: #222223;
+    }
+    .cardimg,.cardimg1{
+        width:80vw;
+    }
+    .splrow{
+        flex-wrap: wrap;
+    }
+    .centerrow{
+        justify-content: center;
+        text-align: center;
+    }
+    .centercol{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .fcol,.lcol{
+        border: 1.4px solid #A9B3AB;
+    }
+    
+}
+@media only screen and (max-width:576px) {
+    .blhead,.heading{
+        font-size: 60px;
+        line-height: 60px;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .navrow.paddings{
+        padding-bottom: 0rem;
+    }
+}
