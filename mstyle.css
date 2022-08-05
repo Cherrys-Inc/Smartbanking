@@ -332,17 +332,17 @@ color: rgba(27, 27, 27, 0.35);
 #myLinks{
     display: none;
   }
-  .topnav {
+ .topnav {
     overflow: hidden;
     background-color: #333;
     position: relative;
   }
   
-  .topnav #myLinks {
+ .topnav #myLinks {
     display: none;
   }
   
-  .topnav a {
+ .topnav a {
     color: white;
     padding: 14px 16px;
     text-decoration: none;
@@ -350,7 +350,7 @@ color: rgba(27, 27, 27, 0.35);
     display: block;
   }
   
-  .topnav a.icon {
+ .topnav a.icon {
     background: black;
     display: block;
     position: absolute;
