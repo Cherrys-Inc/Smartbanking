@@ -18,7 +18,8 @@
     <body>
         <div class="container-fluid"  style="overflow-x:hidden">
             <div class="row navrow margintop marginlr paddings">
-                <div class="col-5">
+                
+                <div class="col-5 "  >
                     <nav class="navbar navbar-expand-lg">
                         <div class="collapse navbar-collapse" id="navbarNav">
                             
@@ -46,7 +47,15 @@
                     <img src="assets/shop.png">
                 </div>
             </div> 
-            <i class="fa-solid fa-bars menu " style="color:black;font-size:30px"></i>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa-solid fa-bars menu " style="color:black;font-size:30px"></i></a>
+            <div id="myLinks" class="topnav">
+                <a class="nav-link px-4" href="#">ABOUT</a>
+                <a class="nav-link px-4" href="#">HOW IT WORKS</a>
+                <a class="nav-link px-4" href="#">CONTACTS</a>
+                <div class="text-center"><img src="assets/shop.png"></div>
+            </div>
             <div class="row marginlr paddings centerrow">
                 <div class="col-lg-5 paddings pt-4">
                     <div class="row centerrow">
@@ -379,5 +388,16 @@
             </div>
             
         </footer>
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myLinks");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            }
+            </script>
     </body>
+
 </html>
